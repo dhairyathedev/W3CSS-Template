@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Staatliches&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #F7FBFB;
+}
+.header{
+    height: 100%;
+}
+.title{
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 45px;
+    user-select: none;
+    cursor: pointer;
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+.cup-animation{
+    height: 400px;
+}
+.container{
+    margin: 40px;
+}
+.sub-title{
+    font-weight: 900;
+}
+.item{
+    cursor: pointer;
+}
