@@ -14,7 +14,7 @@
     <h1 class="title">SnowFee</h1>
     <div class="video">
       <video class="cup-animation" autoplay="autoplay" loop alt="Animation by Max Shevchuk ✱ on Dribbble">
-        <source src="assets/coffee.mp4" type="video/mp4">
+        <source src="assets/coffee.mp4" type="video/mp4" id="vid">
         <img src='image.png' alt='Animation by Max Shevchuk ✱ on Dribbble' />
           Your browser does not support the video tag.
       </video>
@@ -142,5 +142,11 @@
       <div class="w3-margin-top w3-container w3-center w3-light-gray">
         <h4 class="w3-padding-48">Made with <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" rel="noopener noreferrer">W3CSS</a> by <a href="https://github.com/snowbit-coderboi" target="_blank" rel="noopener noreferrer">SnowBit</a></h4>
       </div>
+      <script>
+        function autoPlay(){
+          document.getElementById('vid').play();
+        }
+        autoPlay()
+      </script>
 </body>
 </html>
